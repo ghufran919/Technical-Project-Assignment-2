@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto Slab', serif;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, 0%);
+}
+.box {
+  border-radius: 38px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 150px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+  z-index: -1;
+}
+h1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 30px 0;
+}
+.input {
+  border-radius: 28px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+.input label {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #4f7df9;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+}
+button#calculate {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 12px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #4b6ac2;
+  transition: background 0,2s ease;
+}
+button#calculate :hover{
+background-color: #3b6aec;
+}
+button#calculate p {
+    color: #fafafa;
+}
