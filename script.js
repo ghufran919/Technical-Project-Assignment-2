@@ -4,8 +4,7 @@ btn.addEventListener("click", function (e) { e.preventDefault();
   let height = document.querySelector("#height").value;
   let weight = document.querySelector("#weight").value;
   
-    const newLocal = weight / (height * height);
-  if((height == '') || (height < 0) || (isNaN(height))){
+      if((height == '') || (height < 0) || (isNaN(height))){
     //NaN !== NaN
     alert("Tolong masukkan angka yang sesuai!");
     return;
@@ -40,6 +39,6 @@ if (BMI >= 30) {
 
 document.querySelector(
   "#comment"
-).innerHTML = `Kamu termasuk dalam<span id="comment">${status}</span>`;
+).innerHTML = `Kamu termasuk dalam<span id="comment"> "${status}"</span>`;
 
 })
