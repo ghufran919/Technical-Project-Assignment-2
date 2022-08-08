@@ -74,3 +74,26 @@ background-color: #3b6aec;
 button#calculate p {
     color: #fafafa;
 }
+
+.content {
+  padding: 0 40px;
+}
+
+.result {
+  padding: 30px 20px;
+}
+
+.comment {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+.result #result {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #4f7df9;
+  display: inline-block;
+  margin-bottom: 5px;
+}
