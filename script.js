@@ -20,7 +20,7 @@ let BMI = (weight / (height * height/10000)).toFixed(2);
 
 document.querySelector(
     "#result"
-    ).innerHTML = `IMT kamu adalah <span id="result"> "${BMI}"</span>`;
+    ).innerHTML = `IMT kamu adalah <span id="result"> ${BMI}</span>`;
 
 let status = "";
 
